@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f7fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 550px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef2f5;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.logout-btn {
+    background: #e74c3c !important;
+    padding: 5px 10px !important;
+    font-size: 13px !important;
+    width: auto !important;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4A90E2;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.question {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    background-color: #eef2f5;
+    color: #333;
+    text-align: left;
+}
+
+.options button:hover {
+    background-color: #dcdfe3;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.toggle-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.quiz-card {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-card h4 {
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.quiz-card button {
+    width: auto;
+    padding: 6px 12px;
+}
+
+#review-container {
+    text-align: left;
+    margin: 15px 0;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.review-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
